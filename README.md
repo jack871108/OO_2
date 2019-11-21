@@ -48,7 +48,7 @@ abstract class CShape
 class CTriangle exteands CShape
 {
     prorected int side_a,side_b,side_c;
-    public CTrangle(int a,int b,int c)
+    public CTriangle(int a,int b,int c)
     {
         side_a=a;
         side_b=b;
