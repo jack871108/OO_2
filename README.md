@@ -65,7 +65,7 @@ public class app11_1
 {
     public static void main(String args[])
     {
-        CTriangle tran = new CTriangle(3,4,5);
+        CTriangle trian = new CTriangle(3,4,5);
         trian.setColor("RED");
         trian.show;
     }
