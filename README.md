@@ -45,7 +45,7 @@ abstract class CShape
     }
     public abstract void show();
 }
-class CTrangle exteands CShape
+class CTriangle exteands CShape
 {
     prorected int side_a,side_b,side_c;
     public CTrangle(int a,int b,int c)
@@ -65,8 +65,8 @@ public class app11_1
 {
     public static void main(String args[])
     {
-        CTrangle tran = new CTrangle(3,4,5);
-        tran.setColor("RED");
-        CTrangle.show;
+        CTriangle trian = new CTriangle(3,4,5);
+        trian.setColor("RED");
+        trian.show;
     }
 }
