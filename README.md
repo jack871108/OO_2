@@ -33,3 +33,40 @@ private void index(){
 | csgo         |Talon knife    | USD300|
 
 ![una](20170418190908_6ef5fba813fad74feed9e35c35267e72_2.jpeg)
+
+###
+```js
+abstract class CShape
+{
+    protect String color;
+    public void setColor(String str)
+    {
+        color = str;
+    }
+    public abstract void show();
+}
+class CTrangle exteands CShape
+{
+    prorected int side_a,side_b,side_c;
+    public CTrangle(int a,int b,int c)
+    {
+        side_a=a;
+        side_b=b;
+        side_c=c;
+    }
+    public void show()
+    {
+        System.out.print("color="+color+",");
+        System.out.print("area="+0.5*side_a*side_b)
+    }
+
+}
+public class app11_1
+{
+    public static void main(String args[])
+    {
+        CTrangle tran = new CTrangle(3,4,5);
+        tran.setColor("RED");
+        CTrangle.show;
+    }
+}
