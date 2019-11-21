@@ -38,7 +38,7 @@ private void index(){
 ```js
 abstract class CShape
 {
-    protect String color;
+    protected String color;
     public void setColor(String str)
     {
         color = str;
@@ -47,7 +47,7 @@ abstract class CShape
 }
 class CTriangle exteands CShape
 {
-    prorected int side_a,side_b,side_c;
+    protected int side_a,side_b,side_c;
     public CTriangle(int a,int b,int c)
     {
         side_a=a;
@@ -65,7 +65,7 @@ public class app11_1
 {
     public static void main(String args[])
     {
-        CTriangle trian = new CTriangle(3,4,5);
+        CTriangle tran = new CTriangle(3,4,5);
         trian.setColor("RED");
         trian.show;
     }
