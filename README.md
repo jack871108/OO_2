@@ -36,9 +36,9 @@ private void index(){
 
 ###
 ```js
-import java.util.*;
-import java.lang.*;
-import java.io.*;
+import java.util.;
+import java.lang.;
+import java.io.;
 
 abstract class CShape
 {
