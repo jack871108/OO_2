@@ -83,8 +83,8 @@ public interface Shape {
 }
 public class Rectangle implements Shape {  
   
-   private int length;
-   private int width;
+   private double length;
+   private double width;
 
    
    public Rectangle(int length, int width) {
@@ -105,8 +105,8 @@ public class Rectangle implements Shape {
 }
 public class Triangle implements Shape {
   
-   private int base;
-   private int height;
+   private double base;
+   private double height;
 
   
    public Triangle(int base, int height) {
