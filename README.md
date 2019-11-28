@@ -104,11 +104,11 @@ public class Rectangle implements Shape {
    }
 }
 public class Triangle implements Shape {
-   // Private member variables
+  
    private int base;
    private int height;
 
-   // Constructor
+  
    public Triangle(int base, int height) {
       this.base = base;
       this.height = height;
@@ -119,7 +119,7 @@ public class Triangle implements Shape {
       return "Triangle[base=" + base + ",height=" + height + "]";
    }
 
-   // Need to implement all the abstract methods defined in the interface
+  
    @Override
    public double getArea() {
       return 0.5 * base * height;
