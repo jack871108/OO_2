@@ -125,3 +125,12 @@ public class Triangle implements Shape {
       return 0.5 * base * height;
    }
 }
+```
+```js
+class Student {
+  Course[] courses = new Course[10];
+ }
+
+class Course {
+}
+```
